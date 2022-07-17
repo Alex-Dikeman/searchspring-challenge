@@ -1,0 +1,80 @@
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.searchbar input {
+    max-width: 500px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 15pt;
+    width: 70%;
+}
+.searchbar input:hover, .searchbar input:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+}
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.resultItem {
+    width: 300px;
+    border: 2px solid grey;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: white;2px
+}
+.resultItem img {
+    width: 100%;
+}
+.resultItem h4 {
+    margin: 0 5px;
+}
+.hidden {
+	visibility: hidden;
+}
+.resultItem div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.resultItem h6 {
+    font-weight: bold;
+    font-size: 14pt;
+    margin: 0;
+}
+.resultItem p {
+    margin: 0 4px;
+    text-decoration: line-through
+}
+.pageButtonsTop, .pageButtonsBottom {
+    display: flex;
+    justify-content: center;
+}
+.prevButton, .nextButton {
+    margin: 5px 20%;
+}
+body {
+    background-color: rgba(173, 216, 230, 0.5)
+}
+.resultItem div {
+	margin: 0 5px;
+}
+button {
+padding: 3px 16px;
+font-size: 12pt;
+color: black;
+background-color: white;
+border-radius: 10px;
+border: 1px solid black;
+margin: 0 5px
+}
+button:hover, button:focus {
+background-color: lightblue;
+cursor: pointer;
+}
